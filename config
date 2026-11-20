@@ -1,0 +1,54 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	quotepath = false
+[remote "origin"]
+	url = https://github.com/aibolalpyspaev-rgb/hotel-booking.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+[branch "backend/api"]
+	remote = origin
+	merge = refs/heads/backend/api
+[branch "backend/auth"]
+	remote = origin
+	merge = refs/heads/backend/auth
+[branch "backend/laravel-setup"]
+	remote = origin
+	merge = refs/heads/backend/laravel-setup
+[branch "backend/models"]
+	remote = origin
+	merge = refs/heads/backend/models
+[branch "backend/tests"]
+	remote = origin
+	merge = refs/heads/backend/tests
+[branch "docs/data-model"]
+	remote = origin
+	merge = refs/heads/docs/data-model
+[branch "docs/final"]
+	remote = origin
+	merge = refs/heads/docs/final
+[branch "feature/chatbot"]
+	remote = origin
+	merge = refs/heads/feature/chatbot
+[branch "frontend/admin"]
+	remote = origin
+	merge = refs/heads/frontend/admin
+[branch "frontend/api-auth"]
+	remote = origin
+	merge = refs/heads/frontend/api-auth
+[branch "frontend/booking"]
+	remote = origin
+	merge = refs/heads/frontend/booking
+[branch "frontend/catalog"]
+	remote = origin
+	merge = refs/heads/frontend/catalog
+[branch "frontend/setup"]
+	remote = origin
+	merge = refs/heads/frontend/setup
